@@ -1,0 +1,8 @@
+--
+    name: 'install apache'
+    hosts: localhost
+    tasks:
+      -
+        yum:
+          name: 'httdp'
+          state: 'present'
